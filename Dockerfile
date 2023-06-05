@@ -12,5 +12,5 @@ COPY src .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Command to run the Python script
-CMD [ "python", "/app/main.py" ]
+CMD [ "python", "/app/learn.py" ]
 
